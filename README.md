@@ -82,21 +82,19 @@ Anotações
 
 As anotações do plugin para testes de unidade com sistemas distribuídos em Java com RMI.
 
-*   Date object
-*   Milliseconds
 
 *   @StartRMIServer
-*Inicializa o serviço RMI com as configurações iniciais*
+*(Inicializa o serviço RMI com as configurações iniciais)*
 *   @StopRMIServer
-*Para o serviço RMI*
+*(Para o serviço RMI)*
 *   @PutMockRMI
-*Inclui um objeto remoto (Mock Object) no serviço RMI*
+*(Inclui um objeto remoto (Mock Object) no serviço RMI)*
 *   @RemoveMockRMI
-*Remove do serviço RMI o objeto remoto (Mock Object)*
+*(Remove do serviço RMI o objeto remoto (Mock Object))*
 *   @AssertObjectOnServer
-*Verifica se o objeto remoto está no RMI*
+*(Verifica se o objeto remoto está no RMI)*
 *   @AssertObjectNotOnServer
-*Verifica se o objeto remoto não está no RMI*
+*(Verifica se o objeto remoto não está no RMI)*
 
 
 Dependências
