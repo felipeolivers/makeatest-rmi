@@ -100,10 +100,10 @@ As anotações do plugin para testes de unidade com sistemas distribuídos em Ja
 Dependências
 ------------
 
-*   Eclipe
-*   JUnit 4
-*   JMock
-*   MakeATest-Core
+*   [Eclipse](http://www.eclipse.org/)
+*   [JUnit 4](https://github.com/KentBeck/junit)
+*   [JMock](http://www.jmock.org/)
+*   [MakeATest-Core](https://github.com/marcusfloriano/makeatest-core)
 
 
 Licença
