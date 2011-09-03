@@ -104,6 +104,7 @@ Dependências
 *   [JUnit 4](https://github.com/KentBeck/junit)
 *   [JMock](http://www.jmock.org/)
 *   [MakeATest-Core](https://github.com/marcusfloriano/makeatest-core)
+*   [MakeATest-JUnit](https://github.com/marcusfloriano/makeatest-junit)
 
 
 Licença
