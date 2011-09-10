@@ -5,6 +5,7 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses( { 	ConfigMemorySingletonVerify.class,
-						SecurityPolicyFileCreateRemove.class
+						SecurityPolicyFileCreateRemove.class,
+						RMIControllerVerify.class
 })
 public class AllTests { }

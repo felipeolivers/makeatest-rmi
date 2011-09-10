@@ -1,6 +1,8 @@
 package com.yediat.makeatest.rmi.core;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.rmi.Naming;
 import java.rmi.NotBoundException;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
@@ -57,8 +59,13 @@ public class RMIController {
 		}
 	}
 	
-	public boolean objectOnServer(Object objectContext) {
-		return ConfigMemory.getInstance().registry.equals(objectContext);
+	public boolean objectOnServer(Class<? extends Remote> remoteInterface, String serverName) throws MalformedURLException, RemoteException, NotBoundException {
+        try {
+			Remote remoteObject = Naming.lookup(serverName);           
+	        return (remoteObject instanceof Remote);
+        } catch(Exception e) {
+        	return false;
+        }
 	}
 	
 	public void stopRMI() { 
